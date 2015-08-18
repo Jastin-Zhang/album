@@ -1,0 +1,2 @@
+//upload a file '@photo.png' and a field 'photoname=myphoto'
+curl -F image=@photo.png -F photoname=myphoto http://localhost:3000/postupload
